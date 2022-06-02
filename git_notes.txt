@@ -1,0 +1,83 @@
+GIT COMMANDS-
+
+//To give your intro name,email-
+->git config --global user.name "name"
+->git config --global user.email "@gmail"
+
+//To check the intro-
+->git config user.name
+->git config user.email
+
+//Stages in GIT Life Cycle-
+->Working directory  2.Staging area
+->Git directory
+
+///steps to start-
+//select the folder which one you want to make your repository (when you made an repository then a hidden '.git' folder will become availible) 
+//then open git bash here -
+->git init
+
+//to check the status of folder-
+->git status
+
+//to select all files
+->git add -A(it means all files now in Staging area)
+
+//if you want to select any perticular file-
+->git add file_name
+
+//after this we need to commit(just like snapshot) the files, cmd for this-
+->git commit -m "Initial commit by Satyam" (we use -m"" for massage)
+->git log (this is to check and see what we commit)
+->git add first.txt (this is to commit your file named here as first.txt)
+
+//To finish your git repository-
+-> rm -rf .git(after that your repositry will become a simple git ropository.you can check it using git status command)
+
+//To clone(copy) any repository-
+->git clone url(whatever)
+
+//To check current working directory-
+->pwd
+
+//To list your content-
+-> ls
+
+//To change your folder-
+->cd Folder_name/
+
+//if you want to restore your privious files from your last commit.
+->git checkout
+->git checkout -f (this is for to restore all files if not commited)
+
+//if you want to set url for pushing your Commits then-
+->git remote add origin URL(put your url in place of URL)
+
+//TO push the commit to your URL-
+->git push -u origin BranchName
+
+//if you want to change the URL where you want to push the 
+->git remote set-url origin URL(put your url in place of URL )
+
+//if you want to push again you need to pull it first-
+->git pull origin main
+
+
+
+//For Adding SSh key in github
+->$ ssh-keygen -t ed25519 -C "satyam7355pra@gmail.com"
+	(Enter,Enter,yes)
+
+->$ eval "$(ssh-agent -s)"
+(this will provide agent id)
+
+->$ ssh-add ~/.ssh/id_ed25519
+
+->$ cat ~/.ssh/id_ed25519.pub
+
+(after that copy the whole ssh key and add it as new key.After that you can push the code)
+
+
+
+
+
