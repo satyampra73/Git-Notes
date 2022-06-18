@@ -17,6 +17,9 @@ GIT COMMANDS-
 //then open git bash here -
 ->git init
 
+
+//checking
+
 //to check the status of folder-
 ->git status
 
