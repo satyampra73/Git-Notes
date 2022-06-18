@@ -81,6 +81,27 @@ GIT COMMANDS-
 (after that copy the whole ssh key and add it as new key.After that you can push the code)
 
 
+//if you want to clone any github project
+
+
+->$ git clone (paste your ssh url here)
+
+
+//if you want to delete your last commit 
+
+->$ git reset HEAD~1
+
+
+//To apply that commit on your local pc
+
+->$ git checkout (file that was modified).
+
+->// to change on your github profile you can git pull after compeleting above steps.
+
+//-----------------------------------------------------------//
+
+
+
 
 
 
