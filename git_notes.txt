@@ -1,4 +1,4 @@
-GIT COMMANDS-
+GIT COMMANDS-s
 
 //To give your intro name,email-
 ->git config --global user.name "name"
