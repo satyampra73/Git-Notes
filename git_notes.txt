@@ -1,4 +1,4 @@
-GIT COMMANDS-
+GIT COMMAND-
 
 //To give your intro name,email-
 ->git config --global user.name "name"
@@ -100,12 +100,12 @@ GIT COMMANDS-
 
 ->$ git reset --soft HEAD~1
 
-->// to change on your github profile you can git pull after compeleting above steps.
+## to change on your github profile you can git pull after compeleting above steps. ##
+
+// command used to make same lavel of github and your local computor's commits
+(if you made changes on local computor then you realize that you made mistake if your did not made any commit yet then you can use this command to get your old changes back to your local pc)
+
+->$ git reset --hard
+
 
 //-----------------------------------------------------------//
-
-minor change
-
-
-
-
