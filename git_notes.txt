@@ -108,4 +108,9 @@ GIT COMMAND-
 ->$ git reset --hard
 
 
+//(in your updated repositories if you have 20 commits and you realized that till 18 th number commit your code is fine but after you made mistakes on your 19 and 20 commits )
+//Command to get your code till 18 commit
+
+->$ git checkout 1783773 (you can get this code from github)
+
 //-----------------------------------------------------------//
